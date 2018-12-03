@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <script src="myscripts.js"></script>
+    <title>Canvas</title>
+  </head>
+  <body>
+    <div id = "toolbar">
+      <button id="select" onclick="changetool('select')">
+        <img src="select.png">
+      </button>
+      <div class="mdl-tooltip" for="select">Select</div>
+      <button id="rectan" onclick="changetool('rectan')">
+        <img src="rectan.png">
+      </button>
+      <div class="mdl-tooltip" for="rectan">Rectangle Select</div>
+      <button id="circle" onclick="changetool('circle')">
+        <img src="circle.png">
+      </button>
+      <div class="mdl-tooltip" for="circle">Circle/Dot</div>
+      <button id="spray" onclick="changetool('spray')">
+        <img src="spray.png">
+      </button>
+      <div class="mdl-tooltip" for="spray">Spray Paint</div>
+      <button id="eraser" onclick="changetool('eraser')">
+        <img src="eraser.png">
+      </button>
+      <div class="mdl-tooltip" for="eraser">Eraser</div>
+    </div>
+    <div id = "settings">
+      <input type="color" id="fillcolor" value="#ff0000">
+
+      <input id="sliding" type="range" min="5" max="100" value="25">
+      <!-- Slider with Starting Value -->
+      <!-- <input class="mdl-slider mdl-js-slider" id="sliding" type="range" min="5" max="100" value="25" tabindex="0"> -->
+      <!-- </div> -->
+      <div id="clearbut" onclick="dots=[];draw();">CLEAR</div>
+    </div>
+		<canvas id="canvas" width="5000" height="5000"></canvas>
+
+	</body>
+</html>

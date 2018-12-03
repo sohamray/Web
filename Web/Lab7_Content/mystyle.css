@@ -1,0 +1,83 @@
+body{
+	overflow: hidden;
+}
+#toolbar{
+	position: fixed;
+	background-color: rgb(230, 230, 230);
+	height: 100%;
+	width: 120px;
+	text-align: center;
+	z-index: 1;
+}
+#settings{
+	position: fixed;
+	background-color: rgb(240, 240, 240);
+	left:0px;
+	width: 120px;
+	height: 100%;
+	z-index: 0;
+	text-align: right;
+	padding: 0px;
+}
+#rotated{
+	position: relative;
+	top:50px;
+	margin: 0px;
+	height: 18px;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+button{
+	width: 100%;
+	height: 20%;
+	border-radius: 0px;
+	margin-top: 0px;
+	border-style: hidden;
+	background-color: rgba(255,255,255,0.0);
+	outline-style: hidden;
+	overflow: hidden;
+}
+button:focus {
+    outline:none;
+}
+
+img{
+	width:100%;
+}
+canvas{
+	z-index: -1;
+}
+#fillcolor{
+	outline-style: none;
+	border-radius: 5px;
+	width:100px;
+	margin:7px;
+	height:100px;
+}
+#clearbut{
+	position: absolute;
+	bottom: 0;
+	padding-top: 17px;
+	width:120px;
+	height:40px;
+	text-align: center;
+	background-color: rgb(255, 0, 0);
+	color: white;
+}
+#clearbut:hover{
+	background-color: white;
+	color: red;
+}
+#sliding{
+	position: absolute;
+	top: 120px;
+	bottom: 64px;
+	left: -6px;
+	right: 0px;
+	-webkit-appearance: slider-vertical;
+}

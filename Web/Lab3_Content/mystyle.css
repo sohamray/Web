@@ -1,0 +1,55 @@
+body{
+	text-align: center;
+    align-items: center;
+}
+table{
+	width: 100%;
+}
+header{
+    background-color: rgb(60,60,60);
+    font-family: "Tw Cen MT";
+}
+h1{
+    text-align: center;
+    color: white;
+}
+input.queryInput{
+    width: 80%;
+    height: 100%;
+    padding: 25px;
+    border-radius: 7px;
+    border-style: solid;
+    border-width:1px;
+    font-size: auto;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-color: rgb(180,180,180);
+}
+.box{
+    padding: 20px;
+}
+.box:hover{
+    background-color: rgba(240,240,240,.9);
+}
+.suggestions{
+    text-align: left;
+    font-family: "arial";
+    font-size: auto;
+    font-weight: 1px;
+    border-style: solid;
+    border-color: rgb(200,200,200);
+    border-width: 1px;
+    border-top: none;
+    visibility: hidden;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+    border-radius: 7px;
+}
+.header-cont {
+    width:100%;
+    position:fixed;
+    top:0px;
+    left: 0px;
+    box-shadow: 10px;
+}

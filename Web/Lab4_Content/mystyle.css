@@ -1,0 +1,153 @@
+body{
+	text-align: center;
+}
+table{
+	width: 100%;
+    padding: 0px;
+}
+header{
+    background-color: rgb(60,60,60);
+    font-family: "Tw Cen MT";
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.box{
+    padding: 20px;
+}
+.box:hover{
+    background-color: rgba(240,240,240,.9);
+}
+.header-cont {
+    width:100%;
+    position:fixed;
+    top:0px;
+    left: 0px;
+    box-shadow: 0px 5px 10px 10px rgba(200,200,200,.7);
+}
+.con{
+    padding: 50px;
+    font-size: 20px;
+    font-family: "Helvetica";
+}
+.con:hover{
+    background-color:rgb(200,200,200);
+}
+#p1l,#p2l{
+    border-radius: 5px;
+    border-color: rgba(200,200,200,.9);
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom:10px;
+    width: 80%;
+    font-family: "Century Gothic";
+    font-size: 10px;
+    color: rgba(180,180,180,.9);
+}
+.wordContainer{
+    margin: auto;
+    width: 88.7%;
+    height: 100px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(200,200,200);
+    text-align: center;
+    font-size:60px;
+    box-shadow: 0px 10px 20px rgb(200,200,200);
+    color: rgb(180,180,180);
+    text-transform: uppercase;
+		opacity: 0.0;
+}
+.filler{
+    display: inline-block;
+}
+input{
+    background-color: rgba(255,255,255,0.0);
+    border-bottom: 1px white solid;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    font-size: auto;
+    color: white;
+    margin: 20px 20px 20px 20px;
+    height: 40px;
+    width: 80%;
+    text-align: center;
+    font-family: Helvetica;
+}
+.letterCard{
+    opacity: 0.0;
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(200,200,200);
+    height: auto;
+    background-color: white;
+    color: rgb(200,200,200);
+    font-size: 50px;
+    box-shadow: 0px 10px 20px rgb(200,200,200);
+}
+.subbutton{
+    opacity: 0.0;
+    background-color: rgb(104,141,243);
+    border-radius: 5px;
+    border-color: rgb(104,141,243);
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom:10px;
+    width: 80%;
+    font-family: "Century Gothic";
+    font-size: 10px;
+    color: white;
+}
+.subbutton:hover{
+    color: rgba(104,141,243,.8);
+    background-color: white;
+}
+.challengebutt{
+    background-color: rgb(255,100,100);
+    border-radius: 5px;
+    border-color: rgb(255,100,100);
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom:10px;
+    width: 80%;
+    font-family: "Century Gothic";
+    font-size: 10px;
+    color: white;
+}
+.challengebutt:hover{
+    background-color: white;
+    color: rgb(255,100,100);
+}
+.resetbutt{
+    background-color: rgb(140,190,140);
+    border-radius: 5px;
+    border-color: rgb(140,190,140);
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom:10px;
+    width: 80%;
+    font-family: "Century Gothic";
+    font-size: 10px;
+    color: white;
+}
+.resetbutt:hover{
+    color: rgb(140,190,140);
+    background-color: white;
+}
+th{
+	padding-left: 3px;
+	padding-right: 3px;
+}

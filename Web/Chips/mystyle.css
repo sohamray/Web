@@ -1,0 +1,172 @@
+body{
+	background-color: rgb(117, 117, 255);
+	overflow: hidden;
+}
+
+.inputpane{
+	z-index: 2;
+	width: 400px;
+	text-align: center;
+	background-color: white;
+	border-style: hidden;
+	border-radius: 5px;
+	height: 543px;
+	margin: auto;
+	position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+.subbutton{
+    opacity: 0.0;
+    background-color: rgb(104,141,243);
+    border-radius: 5px;
+    border-color: rgb(104,141,243);
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom:10px;
+    width: 300px;
+    font-family: "Century Gothic";
+    font-size: 10px;
+    color: white;
+}
+.subbutton:hover{
+    background-color: rgba(104,141,243,.8);
+}
+
+.gamepane{
+	opacity: 0.0;
+	z-index: 1;
+	height:100%;
+	width:100%;
+	background-color: white;
+	margin: auto;
+	position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+.playerpane{
+	height:100%;
+	display:inline-block;
+}
+.playerspacer{
+	height:100%;
+	display: table;
+	width: 100%;
+}
+.headname{
+	transform: rotate(-90deg);
+	font-size: auto;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	height: 5px;
+	overflow: visible;
+}
+
+.inputallcontainer{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.inputall{
+	width: 220px;
+	height: auto;
+	background-color: white;
+	border-radius: 5px;
+	border-style: hidden;
+	margin: auto;
+	text-align: center;
+	z-index: 100;
+	/*display: table-cell;*/
+}
+.input{
+	height:40px;
+	width:185px;
+	border-radius: 5px;
+	border-style: solid;
+	margin: 5px;
+	margin-top: 10px;
+	padding-left: 10px;
+	font-family: "Century Gothic";
+	color: rgb(117, 117, 117);
+	text-transform: uppercase;
+}
+input{
+	text-transform: uppercase;
+}
+.button{
+	height:40px;
+	width:200px;
+	border-radius: 5px;
+	color: white;
+	border-style: solid;
+	border-color: white;
+	margin: 5px;
+}
+.fold{
+	background-color: rgb(255, 100, 100);
+	border-color: rgb(255, 100, 100);
+}
+.call{
+	background-color: rgb(100, 100, 255);
+	border-color: rgb(100, 100, 255);
+}
+.check{
+	background-color: rgb(100, 200, 100);
+	border-color: rgb(100, 200, 100);
+}
+.raise{
+	background-color: rgb(200, 100, 230);
+	border-color: rgb(200, 100, 230);
+	opacity: 0.0;
+	margin-bottom: 10px;
+	z-index: 100;
+}
+.fold:hover{
+	color: rgb(255, 100, 100);
+	background-color: white;
+	border-color: rgb(255, 100, 100);
+}
+.call:hover{
+	color: rgb(100, 100, 255);
+	background-color: white;
+	border-color: rgb(100, 100, 255);
+}
+.check:hover{
+	color: rgb(100, 200, 100);
+	background-color: white;
+	border-color: rgb(100, 200, 100);
+}
+.raise:hover{
+	color: rgb(200, 100, 230);
+	background-color: white;
+	border-color: rgb(200, 100, 230);
+}
+#currentBid{
+	margin-top: 10px;
+	height:20px;
+	width: 90px;
+	color: rgb(117,117,117);
+	display: inline-block;
+	font-size: 18px;
+	border-right: solid;
+}
+#pot{
+	margin-top: 10px;
+	height:20px;
+	width: 90px;
+	color: rgb(117,117,117);
+	display: inline-block;
+	font-size: 18px;
+}
+
+.savegame{
+	position: absolute;
+	bottom: 10px; right:10px;
+	opacity: 0.0;
+	z-index: 1;
+}
+.replaybutt{
+	position: absolute;
+	top: 10px; right:10px;
+}

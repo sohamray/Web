@@ -1,0 +1,52 @@
+body{
+	text-align: center;
+	background-image: url("CityScape1.jpg");
+	background-size: cover;
+}
+.contentPane{
+	text-align: center;
+	padding: auto;
+}
+.quote {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-style: italic;
+    width: 500px;
+    margin: auto;
+		margin-top: 10%;
+    padding: 0.35em 40px;
+		padding-left: 50px;
+    line-height: 1.45;
+    position: relative;
+    color: #FFFFFF;
+		text-align: justify;
+		background-color: rgba(0, 0, 0, 0.5);
+		border-style: solid;
+		border-width: 1px;
+		border-color: rgba(255, 255, 255, 0.5);
+}
+.vercent{
+	display: table-cell;
+	vertical-align: middle;
+}
+.quote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 100px;
+    position: absolute;
+    left: -10px;
+    top: -20px;
+    color: #7a7a7a;
+}
+
+.quote .citation {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+.quote .citation:before {
+    content: "\2014 \2009";
+}

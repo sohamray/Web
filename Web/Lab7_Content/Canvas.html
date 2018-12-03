@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)file:///Users/Soham/Google%20Drive/Academics/11/Web/Lab7_Content/index.html -->
+<html class="mdl-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="stylesheet" href="./Canvas_files/icon">
+    <link rel="stylesheet" href="./Canvas_files/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="./Canvas_files/css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./Canvas_files/mystyle.css">
+    <script defer="" src="./Canvas_files/material.min.js"></script>
+    <script src="./Canvas_files/myscripts.js"></script>
+    <title>Canvas</title>
+  </head>
+  <body>
+    <div id="toolbar">
+      <button id="select" onclick="changetool(&#39;select&#39;)" tabindex="0" style="background-color: rgba(255, 255, 255, 0);">
+        <img src="./Canvas_files/select.png">
+      </button>
+      <div class="mdl-tooltip" for="select" data-upgraded=",MaterialTooltip">Select</div>
+      <button id="rectan" onclick="changetool(&#39;rectan&#39;)" tabindex="0">
+        <img src="./Canvas_files/rectan.png">
+      </button>
+      <div class="mdl-tooltip" for="rectan" data-upgraded=",MaterialTooltip">Rectangle Select</div>
+      <button id="circle" onclick="changetool(&#39;circle&#39;)" tabindex="0" style="background-color: white;">
+        <img src="./Canvas_files/circle.png">
+      </button>
+      <div class="mdl-tooltip" for="circle" data-upgraded=",MaterialTooltip" style="left: 60px; margin-left: -30px; top: 361px;">Circle/Dot</div>
+      <button id="spray" onclick="changetool(&#39;spray&#39;)" tabindex="0">
+        <img src="./Canvas_files/spray.png">
+      </button>
+      <div class="mdl-tooltip" for="spray" data-upgraded=",MaterialTooltip">Spray Paint</div>
+      <button id="eraser" onclick="changetool(&#39;eraser&#39;)" tabindex="0">
+        <img src="./Canvas_files/eraser.png">
+      </button>
+      <div class="mdl-tooltip" for="eraser" data-upgraded=",MaterialTooltip">Eraser</div>
+    </div>
+    <div id="settings" style="left: 120px;">
+      <input type="color" id="fillcolor" value="#ff0000">
+      <!-- <div id= 'rotated'>
+        <div class="mdl-slider__container" style="width: 400px; right: 300px;">
+          <input class="mdl-slider mdl-js-slider is-upgraded" id="sliding" type="range" min="5" max="100" value="25" tabindex="0" data-upgraded=",MaterialSlider">
+          <div class="mdl-slider__background-flex">
+            <div class="mdl-slider__background-lower" style="flex: 1 1 0%;"></div>
+            <div class="mdl-slider__background-upper" style="flex: 0 1 0%;"></div>
+          </div>
+        </div> -->
+      <input id="sliding" type="range" min="5" max="100" value="25">
+      <!-- Slider with Starting Value -->
+      <!-- <input class="mdl-slider mdl-js-slider" id="sliding" type="range" min="5" max="100" value="25" tabindex="0"> -->
+      <!-- </div> -->
+      <div id="clearbut" onclick="dots=[];draw();">CLEAR</div>
+    </div>
+		<canvas id="canvas" width="5000" height="5000"></canvas>
+
+	
+
+</body></html>

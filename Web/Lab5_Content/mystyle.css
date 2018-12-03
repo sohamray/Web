@@ -1,0 +1,30 @@
+.main-content{
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  height: 90%;
+  background-color: white;
+  width: 700px;
+  min-width: 650px;
+  box-shadow: 5px 5px 3px 3px rgba(20, 20, 20, 0.1);;
+}
+body{
+  background-color: rgb(117, 117, 255);;
+}
+h1{
+  color: white;
+  padding-right: 7px;
+  background-color: rgb(63,81,181);
+}
+form{
+  width:80%
+  margin: auto;
+}
+table{
+  width:600px;
+  margin-bottom: 20px;
+}
+button{
+  width:600px;
+  margin-bottom: 20px;
+}

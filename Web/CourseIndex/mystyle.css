@@ -1,0 +1,48 @@
+.linkbtn{
+	border: 1px solid;
+	border-color: gray;
+	background-color: white;
+	text-align: center;
+	font-size: 20px;
+	color: gray;
+	padding: 10px;
+	width: 100%;
+}
+.linkbtn:hover{
+	background-color: rgba(200,200,200,.9);
+}
+body{
+	text-align: center;
+	background: blue;
+}
+table{
+	width: 100%;
+}
+.header-cont {
+    width:100%;
+    position:fixed;
+    top:0px;
+    left: 0px;
+}
+.header {
+    height:50px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:100%;
+    margin:0px auto;
+}
+.content {
+    width:960px;
+    background: #F0F0F0;
+    border: 1px solid #CCC;
+    height: 2000px;
+    margin: 70px auto;
+}
+header{
+    background-color: rgb(60,60,60);
+    font-family: "Tw Cen MT";
+}
+h1{
+    text-align: center;
+    color: white;
+}

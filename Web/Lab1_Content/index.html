@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>Burger Form</title>
+  </head>
+  <body>
+    <div class="main-content">
+      <center>
+        <h1 class="typo-styles__demo mdl-typography--display-4">Burger Form</h1>
+      <form action="">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="text" id="fname" name="fname">
+          <label class="mdl-textfield__label" for="fname">First Name:</label>
+        </div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="text" id="lname" name="lname">
+          <label class="mdl-textfield__label" for="lname">Last Name:</label>
+        </div>
+        <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+          <thead>
+            <tr>
+              <th></th>
+              <th class="mdl-data-table__cell--non-numeric">Topping</th>
+              <th>Price</th>
+              <th></th>
+              <th class="mdl-data-table__cell--non-numeric">Topping</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="pickles">
+                  <input type="checkbox" value='&#x2713' id="pickles" name="pickles" class="mdl-switch__input">
+                  <span class="mdl-switch__label"></span>
+                </label>
+              </div>
+              <td class="mdl-data-table__cell--non-numeric">Pickles</td>
+              <td>$0.15</td>
+              <td>
+                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="bbq">
+                  <input type="checkbox" value='&#x2713' id="bbq" name="bbq" class="mdl-switch__input">
+                  <span class="mdl-switch__label"></span>
+                </label>
+              </div>
+              <td class="mdl-data-table__cell--non-numeric">BBQ Sauce</td>
+              <td>$0.15</td>
+            </tr>
+            <tr>
+              <td>
+                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="cheese">
+                  <input type="checkbox" value='&#x2713' id="cheese" name="cheese" class="mdl-switch__input">
+                  <span class="mdl-switch__label"></span>
+                </label>
+              </div>
+              <td class="mdl-data-table__cell--non-numeric">Cheese</td>
+              <td>$0.10</td>
+              <td>
+                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="gpepper">
+                  <input type="checkbox" value='&#x2713' id="gpepper" name="gpepper" class="mdl-switch__input">
+                  <span class="mdl-switch__label"></span>
+                </label>
+              </div>
+              <td class="mdl-data-table__cell--non-numeric">Green Peppers</td>
+              <td>$0.10</td>
+            </tr>
+            <tr>
+              <td>
+                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="gmushrooms">
+                  <input type="checkbox" value='&#x2713' id="gmushrooms" name="gmushrooms" class="mdl-switch__input">
+                  <span class="mdl-switch__label"></span>
+                </label>
+              </div>
+              <td class="mdl-data-table__cell--non-numeric">Grilled Mushrooms</td>
+              <td>$0.15</td>
+              <td>
+                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="tomato">
+                  <input type="checkbox" value='&#x2713' id="tomato" name="tomato" class="mdl-switch__input">
+                  <span class="mdl-switch__label"></span>
+                </label>
+              </div>
+              <td class="mdl-data-table__cell--non-numeric">Tomato</td>
+              <td>$0.10</td>
+            </tr>
+            <tr>
+              <td>
+                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="jalapenos">
+                  <input type="checkbox" value='&#x2713' id="jalapenos" name="jalapenos" class="mdl-switch__input">
+                  <span class="mdl-switch__label"></span>
+                </label>
+              </div>
+              <td class="mdl-data-table__cell--non-numeric">Jalapeños</td>
+              <td>$0.10</td>
+              <td>
+                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="ketchup">
+                  <input type="checkbox" value='&#x2713' id="ketchup" name="ketchup" class="mdl-switch__input">
+                  <span class="mdl-switch__label"></span>
+                </label>
+              </div>
+              <td class="mdl-data-table__cell--non-numeric">Ketchup</td>
+              <td>$0.15</td>
+            </tr>
+            <tr>
+              <td>
+                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="lettuce">
+                  <input type="checkbox" value='&#x2713' id="lettuce" name="lettuce" class="mdl-switch__input">
+                  <span class="mdl-switch__label"></span>
+                </label>
+              </div>
+              <td class="mdl-data-table__cell--non-numeric">Lettuce</td>
+              <td>$0.10</td>
+              <td>
+                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="mayo">
+                  <input type="checkbox" value='&#x2713' id="mayo" name="mayo" class="mdl-switch__input">
+                  <span class="mdl-switch__label"></span>
+                </label>
+              </div>
+              <td class="mdl-data-table__cell--non-numeric">Mayo</td>
+              <td>$0.15</td>
+            </tr>
+            <tr>
+              <td>
+                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="mustard">
+                  <input type="checkbox" value='&#x2713' id="mustard" name="mustard" class="mdl-switch__input">
+                  <span class="mdl-switch__label"></span>
+                </label>
+              </div>
+              <td class="mdl-data-table__cell--non-numeric">Mustard</td>
+              <td>$0.15</td>
+              <td>
+                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="onions">
+                  <input type="checkbox" value='&#x2713' id="onions" name="onions" class="mdl-switch__input">
+                  <span class="mdl-switch__label"></span>
+                </label>
+              </div>
+              <td class="mdl-data-table__cell--non-numeric">Onions</td>
+              <td>$0.10</td>
+            </tr>
+          </tbody>
+        </table>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary" type="submit">
+          Submit
+        </button>
+      </form>
+    </div>
+    </center>
+    <!-- Colored FAB button with ripple -->
+    <a href="../CourseIndex/index.html" style="position: fixed; bottom: 30px; right: 30px;">
+      <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+      <i class="material-icons">reply</i>
+      </button>
+    </a>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+.header{
+  width:100%;
+  position:fixed;;
+  top:0px;
+  left: 0px;
+  background-color: white;
+  padding-bottom: 0px;
+  z-index: 10;
+}
+#headerfiller{
+  height: 160px;
+  width: 100%;
+}
+#slit{
+  opacity: .5;
+  position: fixed;
+  z-index: -1;
+  background-size: cover;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+}
+body{
+  text-align: center;
+}
+hr{
+  margin: 0px;
+}
+table{
+  margin:auto;
+  width: 634px;
+}
+td{
+  padding: 30px;
+}
+h1{color: rgb(117, 117, 117);}
+
+.linkIcon{
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  opacity: .8;
+  margin: auto;
+}
+.linkIcon:hover{
+  opacity: 1.0;
+}

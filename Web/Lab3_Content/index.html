@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Search Tool</title>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+		
+		<script src="myscripts.js"></script>
+	</head>
+	<body>
+		<header class = "header-cont">
+			<h1>
+				Search Engine
+			</h1>
+		</header>
+		<br><br><br><br>
+		<input class="queryInput" id="queryInput" onkeydown="checkTime()" onchange="search()" placeholder="Enter Text" autofocus><br/>
+		<table class="suggestions" id="suggestions">
+			<tr>
+				<td id="r1" class="box" onclick="getResults(1)"></td>
+			</tr>
+			<tr>
+				<td id="r2" class="box" onclick="getResults(2)"></td>
+			</tr>
+			<tr>
+				<td id="r3" class="box" onclick="getResults(3)"></td>
+			</tr>
+			<tr>
+				<td id="r4" class="box" onclick="getResults(4)"></td>
+			</tr>
+		</table>
+		<a href="../CourseIndex/index.html" style="position: fixed; bottom: 30px; right: 30px;">
+      <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+      <i class="material-icons">reply</i>
+      </button>
+    </a>
+	</body>
+</html>

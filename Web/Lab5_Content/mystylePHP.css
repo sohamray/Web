@@ -1,0 +1,38 @@
+.main-content{
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  height: 90%;
+  background-color: white;
+  width: 60%;
+  min-width: 650px;
+  overflow: scroll;
+}
+body{
+}
+h1{
+  color: white;
+  padding-right: 7px;
+  background-color: rgb(63,81,181);
+}
+form{
+  width:80%
+  margin: auto;
+}
+table{
+  width:100%;
+  margin-bottom: 20px;
+}
+th{
+  width:auto;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+td{
+  text-align: center;
+}
+button{
+  width:600px;
+  margin-bottom: 20px;
+}

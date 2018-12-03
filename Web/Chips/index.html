@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <script src="myscripts.js"></script>
+    <title>CHIPS</title>
+  </head>
+  <body>
+		<div class="inputpane">
+			<br><div class="typo-styles__demo mdl-typography--display-1" style="color: rgb(117,117,117);">Chips</div>
+      <button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored replaybutt" onclick="getData()">
+        <i class="material-icons">replay</i>
+      </button>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+				<input class="mdl-textfield__input" type="text" id="player1" onkeyup="dispsub()" autofocus required>
+				<label class="mdl-textfield__label" for="fname">Player 1:</label>
+			</div>
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+				<input class="mdl-textfield__input" type="text" id="player2" onkeyup="dispsub()">
+				<label class="mdl-textfield__label" for="fname">Player 2:</label>
+			</div>
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+				<input class="mdl-textfield__input" type="text" id="player3" onkeyup="dispsub()">
+				<label class="mdl-textfield__label" for="fname">Player 3:</label>
+			</div>
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+				<input class="mdl-textfield__input" type="text" id="player4" onkeyup="dispsub()">
+				<label class="mdl-textfield__label" for="fname">Player 4:</label>
+			</div>
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+				<input class="mdl-textfield__input" type="text" id="player5" onkeyup="dispsub()">
+				<label class="mdl-textfield__label" for="fname">Player 5:</label>
+			</div>
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+				<input class="mdl-textfield__input" type="text" id="player6" onkeyup="dispsub()">
+				<label class="mdl-textfield__label" for="fname">Player 6:</label>
+			</div>
+			<button class="subbutton" id="submit" onclick="creategame()">Submit</button>
+		</div>
+		<div class="gamepane" id="gamepane">
+    </div>
+    <div class="winnerdlg" id="winner">
+      
+    </div>
+    <button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored savegame" id="savegame" onclick="savegame()">
+      <i class="material-icons">save</i>
+    </button>
+	</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GHOST</title>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+		<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+		<script src="myscripts.js"></script>
+	</head>
+	<body>
+		<header class = "header-cont">
+			<h1>
+				GHOST
+			</h1>
+		</header>
+		<br/><br/><br/><br/>
+		<br>
+		<div id="word" class="wordContainer">
+			<div id="entered" class="wordEntered"></div><div id="correct" class="fullWord"></div>
+		</div>
+		<div id="gameArea">
+		<br>
+      <table>
+				<tr>
+					<th width="5%"></th>
+					<th class="fatass" width="40%">
+						<div class="w3-card-4">
+							<header class="w3-container w3-gray">
+							  <input id="player1" value="Player 1">
+							</header>
+							<div class="w3-container">
+								<br>
+							  	<input id="p1l" placeholder="Next Letter" onkeyup="dispsub('submit1','p1l')" maxlength="1" autofocus><br/>
+							  	<button class="challengebutt" id="chall1" onclick="challenge('1')">Challenge</button>
+							  	<button class="subbutton" id="submit1" onclick="submit('p1l')">Submit</button>
+							</div>
+						</div>
+						<br>
+					</th>
+					<th width="10%"><button class="resetbutt" onclick="window.location.reload()">RESET</button></th>
+					<th class="fatass" width="40%">
+						<div class="w3-card-4">
+							<header class="w3-container w3-gray">
+							  	<input id="player2" value="Player 2">
+							</header>
+							<div class="w3-container">
+								<br>
+							  	<input id="p2l" placeholder="Next Letter" onkeyup="dispsub('submit2','p2l')" maxlength="1" disabled><br/>
+							  	<button class="challengebutt" id="chall2" onclick="challenge('2')">Challenge</button>
+							  	<button class="subbutton" id="submit2" onclick="submit('p2l')">Submit</button>
+							</div>
+						</div>
+						<br>
+					</th>
+					<th width="5%"></th>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<table>
+							<tr>
+								<th width=20%><div id="g1" class="letterCard">G</div></th>
+								<th width=20%><div id="h1" class="letterCard">H</div></th>
+								<th width=20%><div id="o1" class="letterCard">O</div></th>
+								<th width=20%><div id="s1" class="letterCard">S</div></th>
+								<th width=20%><div id="t1" class="letterCard">T</div></th>
+							</tr>
+						</table>
+					</td>
+					<td></td>
+					<td>
+						<table>
+							<tr>
+								<th width=20%><div id="g2" class="letterCard">G</div></th>
+								<th width=20%><div id="h2" class="letterCard">H</div></th>
+								<th width=20%><div id="o2" class="letterCard">O</div></th>
+								<th width=20%><div id="s2" class="letterCard">S</div></th>
+								<th width=20%><div id="t2" class="letterCard">T</div></th>
+							</tr>
+						</table>
+					</td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+		<a href="../CourseIndex/index.html" style="position: fixed; bottom: 30px; right: 30px;">
+      <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+      <i class="material-icons">reply</i>
+      </button>
+    </a>
+	</body>
+</html>
